@@ -1,0 +1,27 @@
+{
+    "compilerOptions": {
+        "target": "es5",
+        "module": "commonjs",
+        "baseUrl": "./src",
+        "paths": {
+            "~*": ["./*"]
+        },
+        "plugins": [
+            { "transform": "typescript-transform-paths" },
+            {
+                "transform": "typescript-transform-paths",
+                "afterDeclarations": true
+            }
+        ],
+        "allowJs": false,
+        "outDir": "./dist",
+        "removeComments": true,
+        "esModuleInterop": true,
+        "forceConsistentCasingInFileNames": true,
+        "strict": true,
+        "noImplicitAny": true,
+        "noImplicitReturns": true,
+        "noImplicitOverride": true,
+        "skipDefaultLibCheck": true
+    }
+}

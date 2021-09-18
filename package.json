@@ -1,0 +1,28 @@
+{
+    "name": "boilerplate-typescript",
+    "version": "1.0.0",
+    "description": "Boilerplate Node Project with TypeScript",
+    "main": "src/index.ts",
+    "scripts": {
+        "prestart": "rimraf dist",
+        "start": "nodemon --quiet",
+        "poststart": "rimraf dist",
+        "prebuild": "rimraf dist",
+        "build": "ttsc -p tsconfig.app.json",
+        "test": "jest"
+    },
+    "author": "Anderson Freitas",
+    "license": "ISC",
+    "devDependencies": {
+        "@types/jest": "^27.0.1",
+        "jest": "^27.2.0",
+        "nodemon": "^2.0.12",
+        "prettier": "2.4.1",
+        "rimraf": "^3.0.2",
+        "ts-jest": "^27.0.5",
+        "ts-node": "^10.2.1",
+        "ttypescript": "^1.5.12",
+        "typescript": "^4.4.3",
+        "typescript-transform-paths": "^3.3.1"
+    }
+}
