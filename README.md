@@ -10,6 +10,7 @@ This project is a boilerplate to start a node server application with typescript
 -   Hot restart with Nodemon
 -   Unit Tests with Jest
 -   Code formatting well defined with Prettier
+-   Docker Support
 
 ### Why to use?
 
