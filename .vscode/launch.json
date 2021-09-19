@@ -8,7 +8,7 @@
             "type": "pwa-node",
             "request": "launch",
             "name": "Debug",
-            "skipFiles": ["<node_internals>/**"],
+            "skipFiles": ["<node_internals>/**", "dist/**"],
             "runtimeExecutable": "npm",
             "runtimeArgs": ["run-script", "start", "--silent"],
             "stopOnEntry": true,
