@@ -1,6 +1,6 @@
 describe("index file unit tests", () => {
     beforeAll(() => {
-        jest.spyOn(console, "log");
+        console.log = jest.fn();
     });
 
     it("should log on the console", () => {
