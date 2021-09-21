@@ -1,4 +1,4 @@
-describe("index file unit tests", () => {
+describe("helloWorld", () => {
     beforeAll(() => {
         console.log = jest.fn();
     });
