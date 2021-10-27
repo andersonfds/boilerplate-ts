@@ -20,10 +20,10 @@ All you need to do is to clone the repo, delete the content of the src folder an
 
 ### More on the app
 
-This application has no dependency¹, it is not a standard architecture nor a better way to build something, it's just the initial typescript setup you have to make, the `__tests__` folder works just fine, the `src` folder is where you maintain your source code and that's it.
+This application has no dependency¹, it is not a standard architecture nor a better way to build something, it's just the initial typescript setup you can use to start building your typescript projects. It comes with support for unit testing with [jest](https://www.npmjs.com/package/jest)
 
 ---
 
-### Asterisks:
+### Notes:
 
 1. The app has devDependencies, which are needed to build the application
